@@ -8,13 +8,14 @@
     <version>0.0.0</version>
     <authors>Kyle Gobel</authors>
     <description>An easy to use C# wrapper around the Hipchat v2 API</description>
+    <iconUrl>http://i.imgur.com/RUv8sSn.png</iconUrl>
     <language>en-US</language>
     <projectUrl>https://github.com/KyleGobel/Hipchat-CS/</projectUrl>
     <dependencies>
-      <dependency id="ServiceStack.Text" version="4.0.18"/>
+      <dependency id="ServiceStack.Text.Core" version="1.0.37"/>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\HipchatApiV2.dll" target="lib"/>
+    <file src="..\bin\netstandard1.3\HipchatApiV2.dll" target="lib"/>
   </files>
 </package>
